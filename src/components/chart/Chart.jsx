@@ -4,38 +4,38 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsive
 const data = [
   {
     name: 'Jan',
-    pv: 10,
-    amt: 10,
+    pv: 1000,
+    amt: 1000,
   },
   {
     name: 'Feb',
-    pv: 20,
-    amt: 20,
+    pv: 2000,
+    amt: 2000,
   },
   {
     name: 'Mar',
-    pv: 30,
-    amt: 30,
+    pv: 3000,
+    amt: 3000,
   },
   {
     name: 'April',
-    pv: 10,
-    amt: 10,
+    pv: 1000,
+    amt: 1000,
   },
   {
     name: 'May',
-    pv: 20,
-    amt: 20,
+    pv: 2000,
+    amt: 2000,
   },
   {
     name: 'June',
-    pv: 30,
-    amt: 30,
+    pv: 3000,
+    amt: 3000,
   },
   {
     name: 'July',
-    pv: 40,
-    amt: 40,
+    pv: 4000,
+    amt: 4000,
   },
 ];
 const Chart = ({aspect}) => {
@@ -59,7 +59,7 @@ const Chart = ({aspect}) => {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Bar dataKey="pv" fill="#0080ff" />
+          <Bar dataKey="" fill="#0080ff" />
         </BarChart>
       </ResponsiveContainer>
     </div>

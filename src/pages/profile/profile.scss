@@ -3,7 +3,7 @@
     width: 100%;
     .singleContainer {
       flex: 6;
-  
+        
       .top {
         padding: 20px;
         display: flex;
@@ -15,7 +15,8 @@
           box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
           padding: 20px;
           position: relative;
-  
+          padding: 30px;
+          margin: 20px;
           .editButton {
             position: absolute;
             top: 0;
@@ -63,9 +64,9 @@
           }
         }
   
-        .right {
-          flex: 2;
-        }
+        // .right {
+        //   flex: 2;
+        // }
       }
   
       .bottom {
